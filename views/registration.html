@@ -1,0 +1,23 @@
+<% layout("layout") -%>
+<div class="row-fluid subheading">
+<div class="span6">
+  <h3>You made it!</h3>
+  <p>You registered as the twitter handle <%= UserID %> !</p>
+  <p>Share with your friends and invite them <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://xapijv.kneaver.com/" data-text="Just registered for #xAPI twitter experience, Join me at |" data-via="xAPI_jv" data-hashtags="xAPI" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <h3>Bonus</h3>
+  <p>You created your first xAPI statement</p>
+  <p>We use the <a href="http://adlnet.gov/expapi/verbs/registered/">registered</a> verb to collect your registration</p>
+  <p>This is the statement in it's JSON form</p>
+  <style>
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; text-align:left; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+  </style>
+  <pre><code><%- Statement %></code></pre>
+  <p><a class="btn btn-primary btn-lg" href="/">Return to main page</a></p>
+</div>
+</div>
