@@ -5,4 +5,7 @@ output/
 
 # Temporary file directory
 tmp/
-start_real.bat
+Start.bat
+StartReal.bat
+.env
+node_modules
