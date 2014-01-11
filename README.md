@@ -21,7 +21,7 @@ As is the app features two simple stories
 
 AS1 will have two slides
 
-![alt text](docs/assets/images/Image-2014-01-11-0009-Scr.png "First slide of AS1")
+![alt text](docs/assets/images/Image-2014-01-11-0010-Scr.png "First slide of AS1")
 
 First one will let you test a name with three different methods
 
@@ -33,11 +33,11 @@ Second slide is just for the sake of being there
 
 AS2 will have one slide with a big register button on it
 
-![alt text](docs/assets/images/Image-2014-01-11-0010-Scr.png "First slide of AS2")
+![alt text](docs/assets/images/Image-2014-01-11-0009-Scr.png "First slide of AS2")
 
 This button will bring you to the register page on twitter where you will be prompt to authorize the application to use your account. When it is done an xAPI statement will be prepared and sent to the LRS.
 
-![alt text](docs/assets/images/Image-2014-01-11-0011-Scr.png "Registration")
+![alt text](docs/assets/images/Image-2014-01-11-0008-Scr.png "Registration")
 
 
 
